@@ -184,6 +184,8 @@ a
     width: 80%;
 }
 
+/* SEÇÃO ACESSO */
+
 .banner-meio{
     height: 60vh;
     background-image: url(../Projeto\ Bibliotec/imgs/Banner\ centro.svg);
@@ -194,4 +196,34 @@ a
 
     padding: 0 120px;
     color: var(--branco);
+}
+
+/* SEÇÃO ACERVO */
+
+.lista-livros {
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.livro{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px 50px;
+
+    text-align: center;
+}
+
+
+.livro h3{
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    width: 90%;
 }
