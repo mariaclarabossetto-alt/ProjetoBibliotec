@@ -37,7 +37,9 @@ a
     font-weight: 500;
 }
 
+
 /* CONTEÚDO PRINCIPAL */
+
 
 .banner-principal
 {
@@ -93,7 +95,9 @@ a
     width: 35%;
 }
 
+
 /* TITULO DAS SEÇÕES */
+
 
 .titulo-secao{
     display: flex;
@@ -113,7 +117,9 @@ a
     background-color: var(--cor-destaque);
 }
 
+
 /* SEÇÃO BENEFÍCIOS */
+
 
 .beneficios{
     padding: 50px 120px;
@@ -184,7 +190,9 @@ a
     width: 80%;
 }
 
+
 /* SEÇÃO ACESSO */
+
 
 .banner-meio{
     height: 60vh;
@@ -198,37 +206,54 @@ a
     color: var(--branco);
 }
 
+
 /* SEÇÃO ACERVO */
+
+
+.acervo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 50px 120px;
+}
 
 .lista-livros {
     display: grid;
-    grid-template-columns: repeat(4,20%);
-    gap: 10%;
+    grid-template-columns: repeat(4,auto);
     justify-content: center;
-    align-items: center;
+    gap: 5%;
 }
 
 .livro{
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 80px 20px 50px;
+    justify-content: space-between;
+    gap: 20px;
 
     text-align: center;
+    align-items: center;
+}
+
+.livro img{
+    height: 300px;
 }
 
 
 .livro h3{
-    font-size: 1.2em;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    font-size: 1em;
     text-transform: uppercase;
-    width: 90%;
+    width: 65%;
 }
 
+.livro h4{
+    font-size: 0.8em;
+}
+
+
 /* FOOTER */
+
 
 .inferior{
     background-color: var(--azul-escuro);
