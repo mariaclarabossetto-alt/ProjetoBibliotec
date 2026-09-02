@@ -227,3 +227,72 @@ a
     text-transform: uppercase;
     width: 90%;
 }
+
+/* FOOTER */
+
+.inferior{
+    background-color: var(--azul-escuro);
+    padding: 120px 120px;
+}
+
+
+.linha{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.links{
+    display: flex;
+    gap: 120px;
+}
+
+.inferior span{
+    background-color: var(--branco);
+    display: flex;
+    width: 1895px;
+    height: 3px;
+}
+
+.navegacao-inferior{
+    display:flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 10px; /* equivale a 16px */
+    font-weight: 400;
+    gap: 10px;
+}
+
+.inferior h2{
+    color: var(--cor-destaque);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.redes{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+
+.sociais{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.linha-termos{
+    color: var(--branco);
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+.termos{
+    display: flex;
+    gap: 40px;
+}
