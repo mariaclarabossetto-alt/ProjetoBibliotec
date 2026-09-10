@@ -222,71 +222,77 @@
 
 /* FOOTER */
 
-
-.inferior {
+footer{
     background-color: var(--azul-escuro);
-    padding: 120px 120px;
+    color: var(--branco);
+    padding: 100px 120px 30px;
 }
 
-
-.linha {
+.main {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
 }
 
-.links {
-    display: flex;
-    gap: 120px;
-}
-
-.inferior span {
-    background-color: var(--branco);
-    display: flex;
-    width: 1895px;
-    height: 3px;
-}
-
-.navegacao-inferior {
+.rodape-logos {
     display: flex;
     flex-direction: column;
-    text-transform: uppercase;
-    font-size: 10px;
-    /* equivale a 16px */
-    font-weight: 400;
-    gap: 10px;
+    gap: 130px;
 }
 
-.inferior h2 {
+.rodape-informacoes {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.nav-footer  {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-footer p {
     color: var(--cor-destaque);
-    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+.nav-footer a {
+    color: var(--branco);
     margin-bottom: 10px;
 }
 
-.redes {
+.icones {
     display: flex;
-    gap: 50px;
-    width: 100%;
-    justify-content: end;
-    align-items: center;
-}
-
-.sociais {
-    display: flex;
-    justify-content: space-between;
     gap: 20px;
 }
 
-.linha-termos {
-    color: var(--branco);
-    font-size: 10px;
+footer span {
     display: flex;
-    justify-content: space-between;
-    font-size: 10px;
-    margin-top: 30px;
+    margin: 50px 0;
+    background-color: white;
+    height: 1px;
+    width: 100%;
 }
 
-.termos {
+.footer-inferior {
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.rodape-informacoes p {
+    color: var(--cor-destaque);
+    font-size: 1em;
+    font-weight: 700;
+    width: 100%;
+}
+
+.footer-inferior {
+    display: flex;
 }
