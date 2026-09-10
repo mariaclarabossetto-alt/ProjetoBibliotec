@@ -444,5 +444,6 @@ footer span {
 
         /* só funciona com positio, quanto maior o z-index, mais pra cima o elemento fica */
         z-index: 100;
+        display: none;
     }
 }
