@@ -46,6 +46,7 @@
     color: var(--textos-paginas);
 }
 
+
 /* FILTRO */
 
 .botao-filtro {
@@ -93,11 +94,13 @@
     font-weight: 700;
 }
 
+
 /* ALINHANDO O NOME A ESQUERDA */
 
 .cabecalho-lista h2:nth-child(1){
     text-align: left;
 }
+
 
 /* ALINHANDO O RESTANTE AO CENTRO */
 
@@ -105,6 +108,7 @@
     text-align: center;
     font-size: 1em;
 }
+
 
 /* LISTA DE LIVROS */
 
@@ -135,13 +139,17 @@
     justify-self: flex-start;
 }
 
+
 /* STATUS */
-.status-retirado{
-    color: green;
-}
-.status{
+
+.aguardando{
     color: red;
 }
+
+.retirado{
+    color: rgb(9, 211, 9);
+}
+
 
 /* CHECKBOX */
 
@@ -177,6 +185,7 @@ input[type="checkbox"]:checked::after/*o after permite a gente desenhar dentro d
     font-size: 20px;
     font-weight: 800;
 }
+
 
 /* BOTÕES DE AÇÃO */
 
@@ -245,3 +254,4 @@ input[type="checkbox"]:checked::after/*o after permite a gente desenhar dentro d
     font-size: 0.8em;
     font-weight: 700;
 }
+
